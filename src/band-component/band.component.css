@@ -1,0 +1,14 @@
+.bandName {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.thumbnail {
+  border: #ff65ed;
+  border: double;
+}
+
+.selected {
+  background-color: gainsboro !important;
+  color: white;
+}

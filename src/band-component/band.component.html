@@ -1,0 +1,14 @@
+
+<h1> Band Catalogue</h1>
+
+<table>
+    <tr *ngFor="let band of bandArray"
+        [class.selected]="band === selectedBand"
+        (click)="onSelect(band)">
+        <td class="thumbnail"> {{ band.thumbnail }} </td>
+        <td class="bandName">{{ band.bandName }}</td>
+    </tr>
+</table>
+<div *ngIf="selectedBand">
+    <button (click)="goToAlbums()">View Albums </button>
+</div>
