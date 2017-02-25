@@ -14,4 +14,8 @@ export class MusicService {
             .then(bands => bands.find(band => band.id === id));
     }
 
+    getSongs(id: number): Promise<BandArray> {
+        return this.getAlbums(id)
+            .then(albums => albums.find(album => album.id === id));
+    }
 }

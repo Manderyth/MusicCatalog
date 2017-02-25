@@ -10,8 +10,7 @@ import { MusicService } from "../app/music-service.service";
 })
 export class BandComponent implements OnInit {
     bandArray: BandArray[];
-    selectedBand: BandArray;
-
+ 
     constructor(private musicService: MusicService, private router: Router) { }
 
     getBands() {
@@ -23,14 +22,4 @@ export class BandComponent implements OnInit {
         this.getBands();
     }
 
-    onSelect(band: BandArray) {
-        this.selectedBand = band;
-    }
-
-    goToAlbums() {
-        console.log(this.selectedBand);
-        this.router.navigate(['/albums', this.selectedBand.id]);
-    }
-
-
-}
+ }

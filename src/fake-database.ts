@@ -6,6 +6,7 @@ export const BANDARRAY = [
         bandName: "Poets of the Fall",
         albums: [
             {
+                id: 1,
                 title: "Jealous Gods",
                 thumbnail: 'thumbnail',
                 releaseDate: 0,
@@ -16,6 +17,7 @@ export const BANDARRAY = [
             },
 
             {
+                id: 2,
                 title: "Clearview",
                 thumbnail: 'thumbnail',
                 releaseDate: 2016,
@@ -27,6 +29,7 @@ export const BANDARRAY = [
             },
 
             {
+                id: 3,
                 title: "Twilight Theatre",
                 thumbnail: 'thumbnail',
                 releaseDate: 0,
@@ -38,6 +41,7 @@ export const BANDARRAY = [
             },
 
             {
+                id: 4,
                 title: "Carnival of Rust",
                 thumbnail: 'thumbnail',
                 releaseDate: 0,
@@ -56,6 +60,7 @@ export const BANDARRAY = [
         bandName: "Sonata Arctica",
         albums: [
             {
+                id: 1,
                 title: "Silence",
                 thumbnail: 'thumbnail',
                 releaseDate: 0,
@@ -63,6 +68,7 @@ export const BANDARRAY = [
             },
 
             {
+                id: 2,
                 title: "Days of Grays",
                 thumbnail: 'thumbnail',
                 releaseDate: 0,
@@ -76,6 +82,7 @@ export const BANDARRAY = [
             },
 
             {
+                id: 3,
                 title: "The Ninth Hour",
                 thumbnail: 'thumbnail',
                 releaseDate: 2016,
@@ -95,6 +102,7 @@ export const BANDARRAY = [
         bandName: "Nightwish",
         albums: [
             {
+                id: 1,
                 title: "Imaginaerum",
                 thumbnail: 'thumbnail',
                 releaseDate: 2005,
@@ -106,6 +114,7 @@ export const BANDARRAY = [
             },
 
             {
+                id: 2,
                 title: "Once",
                 thumbnail: 'thumbnail',
                 releaseDate: 0,
@@ -115,6 +124,7 @@ export const BANDARRAY = [
             },
 
             {
+                id: 3,
                 title: "Endless Forms Most Beautiful",
                 thumbnail: 'thumbnail',
                 releaseDate: 2015,
@@ -130,6 +140,7 @@ export const BANDARRAY = [
         bandName: "Kamelot",
         albums: [
             {
+                id: 1,
                 title: "Poetry for the Poisoned",
                 thumbnail: 'thumbnail',
                 releaseDate: 0,
@@ -141,6 +152,7 @@ export const BANDARRAY = [
             },
 
             {
+                id: 2,
                 title: "Karma",
                 thumbnail: 'thumbnail',
                 releaseDate: 0,
@@ -150,6 +162,7 @@ export const BANDARRAY = [
             },
 
             {
+                id: 3,
                 title: "Silverthorn",
                 thumbnail: 'thumbnail',
                 releaseDate: 0,
@@ -165,6 +178,7 @@ export const BANDARRAY = [
         bandName: "Indica",
         albums: [
             {
+                id: 1,
                 title: "Indica",
                 thumbnail: 'thumbnail',
                 releaseDate: 0,
@@ -174,6 +188,7 @@ export const BANDARRAY = [
             },
 
             {
+                id: 2,
                 title: "Shine",
                 thumbnail: 'thumbnail',
                 releaseDate: 0,
@@ -192,6 +207,7 @@ export const BANDARRAY = [
         bandName: "Krypteria",
         albums: [
             {
+                id: 1,
                 title: "All Beauty Must Die",
                 thumbnail: 'thumbnail',
                 releaseDate: 0,
@@ -199,6 +215,7 @@ export const BANDARRAY = [
             },
 
             {
+                id: 2,
                 title: "In Media Res",
                 thumbnail: 'thumbnail',
                 releaseDate: 0,

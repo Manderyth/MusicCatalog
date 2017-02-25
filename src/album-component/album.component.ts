@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Params } from '@angular/router';
+import { Router, ActivatedRoute, Params } from '@angular/router';
 import { BandArray } from '../domain/bands';
 import { MusicService } from "../app/music-service.service";
 
@@ -13,8 +13,8 @@ import 'rxjs/add/operator/switchMap';
 })
 export class AlbumComponent implements OnInit {
     bandArray: BandArray;
-
-    constructor(public musicService: MusicService, private route: ActivatedRoute) { }
+    
+    constructor(public musicService: MusicService, private route: ActivatedRoute, private router: Router) { }
 
     ngOnInit() {
         this.route.params
