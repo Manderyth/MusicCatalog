@@ -11,8 +11,22 @@ export const BANDARRAY = [
                 thumbnail: 'thumbnail',
                 releaseDate: 0,
                 songs: [
-                    "Jealous Gods",
-                    "Hounds to Hamartia"
+                    {
+                    songTitles:
+                    [
+                        {songTitle: "Daze", rating: 3},
+                        {songTitle: "Jealous Gods", rating: 5},
+                        {songTitle: "Rumors", rating: 4},
+                        {songTitle: "Brighter Than the Sun", rating: 4},
+                        {songTitle: "Love Will Come to You", rating: 5},
+                        {songTitle: "Rouge", rating: 1},
+                        {songTitle: "Rebirth", rating: 5},
+                        {songTitle: "Hounds to Hamartia", rating: 5},
+                        {songTitle: "Clear Blue Sky", rating: 4},
+                        {songTitle: "Choice Millionaire", rating: 3},
+                        {songTitle: "Nothing Stays the Same", rating: 3},
+                    ],
+                    }
                 ]
             },
 
