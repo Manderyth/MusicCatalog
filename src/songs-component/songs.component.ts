@@ -15,9 +15,9 @@ export class SongsComponent implements OnInit {
     constructor(public musicService: MusicService, private route: ActivatedRoute, private router: Router) { }
 
     ngOnInit() {
-      this.route.params
+        this.route.params
           .switchMap((params: Params) => this.musicService.getSongs(+params['id']))
-          .subscribe(albums => this.albumArray = albums);
-  }
+            .subscribe(albums => this.albumArray = albums);
+    }
 
 }

@@ -14,7 +14,6 @@ export class BandComponent implements OnInit {
     constructor(private musicService: MusicService, private router: Router) { }
 
     getBands() {
-        console.log(this.bandArray);
         this.musicService.getBands().then(bandArray => this.bandArray = bandArray);
     }
 

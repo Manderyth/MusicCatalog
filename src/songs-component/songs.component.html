@@ -2,6 +2,7 @@
   songs works!
 </p>
 
-<div *ngFor="let song of bandArray?.albums.songs">
+<div *ngFor="let song of albumArray?.albums">
+    <h2>{{album.title}}</h2>
     <h2>{{song.songTitle}}</h2>
 </div>

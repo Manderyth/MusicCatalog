@@ -11,11 +11,11 @@ export class MusicService {
 
     getAlbums(id: number): Promise<BandArray> {
         return this.getBands()
-            .then(bands => bands.find(band => band.id === id));
+            .then(bands => bands.find(band => band.id === id))
     }
 
     getSongs(id: number): Promise<BandArray> {
-        return this.getAlbums(id)
+        return this.getBands()
             .then(albums => albums.find(album => album.id === id));
-    }
+       }
 }
