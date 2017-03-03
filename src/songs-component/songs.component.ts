@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
-import { BandArray } from '../domain/bands';
+import { AlbumArray } from '../domain/albums';
 import { MusicService } from "../app/music-service.service";
 
 @Component({
@@ -10,14 +10,19 @@ import { MusicService } from "../app/music-service.service";
 })
 
 export class SongsComponent implements OnInit {
-    albumArray: BandArray;
+    albumArray: AlbumArray;
 
     constructor(public musicService: MusicService, private route: ActivatedRoute, private router: Router) { }
 
     ngOnInit() {
-        this.route.params
-          .switchMap((params: Params) => this.musicService.getSongs(+params['id']))
-            .subscribe(albums => this.albumArray = albums);
-    }
+      this.route.params
+          .switchMap((params: Params) => {
+             return this.musicService.getAlbums(+params['bandId'], +params['albumId'])
+          })
+          .subscribe(albums => {
+            console.log(albums);
+            this.albumArray = albums
+          });
+  }
 
 }

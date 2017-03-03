@@ -5,5 +5,5 @@ export interface AlbumArray {
     title: string;
     thumbnail: string;
     releaseDate: number;
-    songs: SongsArray;
+    songs: SongsArray[];
 }

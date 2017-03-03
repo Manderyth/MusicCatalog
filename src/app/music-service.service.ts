@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BandArray } from '../domain/bands';
+import { AlbumArray } from '../domain/albums';
+import { SongsArray } from '../domain/songs';
 import { BANDARRAY } from '../fake-database';
 
 @Injectable()
@@ -9,13 +11,13 @@ export class MusicService {
         return Promise.resolve(BANDARRAY);
     }
 
-    getAlbums(id: number): Promise<BandArray> {
+    getBand(id: number): Promise<BandArray> {
         return this.getBands()
-            .then(bands => bands.find(band => band.id === id))
+            .then(bands => bands.find(band => band.id === id));
     }
 
-    getSongs(id: number): Promise<BandArray> {
-        return this.getBands()
-            .then(albums => albums.find(album => album.id === id));
-       }
+    getAlbums(bandId: number, albumId: number): Promise<AlbumArray> {
+        return this.getBand(bandId)
+            .then(band => band.albums.find(album => album.id === albumId));
+    }
 }

@@ -1,3 +1,6 @@
+// import { SongTitlesArray } from './songTitles';
+
 export interface SongsArray {
-    songTitle: string;
+    songTitles: string;
+    rating: number;
 }

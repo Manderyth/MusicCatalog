@@ -9,12 +9,22 @@ export const BANDARRAY = [
                 id: 1,
                 title: "Jealous Gods",
                 thumbnail: 'thumbnail',
-                releaseDate: 0,
-                songs: [
-                    "Jealous Gods",
-                    "Hounds to Hamartia"
-                ]
-            },
+                releaseDate: 2014,
+                songs:
+                    [
+                        {songTitle: "Daze", rating: 3},
+                        {songTitle: "Jealous Gods", rating: 5},
+                        {songTitle: "Rumors", rating: 4},
+                        {songTitle: "Brighter Than the Sun", rating: 4},
+                        {songTitle: "Love Will Come to You", rating: 5},
+                        {songTitle: "Rouge", rating: 1},
+                        {songTitle: "Rebirth", rating: 5},
+                        {songTitle: "Hounds to Hamartia", rating: 5},
+                        {songTitle: "Clear Blue Sky", rating: 4},
+                        {songTitle: "Choice Millionaire", rating: 3},
+                        {songTitle: "Nothing Stays the Same", rating: 3},
+                    ],
+                },
 
             {
                 id: 2,
@@ -22,33 +32,119 @@ export const BANDARRAY = [
                 thumbnail: 'thumbnail',
                 releaseDate: 2016,
                 songs: [
-                    "Children of the Sun",
-                    "Once Upon a Playground Rainy",
-                    "Moonlight Kissed"
-                ]
+                        {songTitle: "Drama for Life", rating: 3},
+                        {songTitle: "The Game", rating: 5},
+                        {songTitle: "The Child in Me", rating: 4},
+                        {songTitle: "Once Upon a Playground Rainy", rating: 4},
+                        {songTitle: "Children of the Sun", rating: 5},
+                        {songTitle: "Shadow Play", rating: 1},
+                        {songTitle: "Center Stage", rating: 5},
+                        {songTitle: "The Labyrinth", rating: 5},
+                        {songTitle: "Crystalline", rating: 4},
+                        {songTitle: "Moonlight Kissed", rating: 3},
+                        ]
             },
 
             {
                 id: 3,
                 title: "Twilight Theatre",
                 thumbnail: 'thumbnail',
-                releaseDate: 0,
+                releaseDate: 2010,
                 songs: [
-                    "Heal My Wounds",
-                    "Given and Denied",
-                    "War"
-                ]
+                        {songTitle: "Dreaming Wide Awake", rating: 4},
+                        {songTitle: "War", rating: 5},
+                        {songTitle: "Change", rating: 3},
+                        {songTitle: "15 Min Flame", rating: 3},
+                        {songTitle: "Given and Denied", rating: 5},
+                        {songTitle: "Rewind", rating: 5},
+                        {songTitle: "Dying to Live", rating: 3},
+                        {songTitle: "You're Still Here", rating: 5},
+                        {songTitle: "Smoke and Mirrors", rating: 4},
+                        {songTitle: "Heal My Wounds", rating: 5},
+                        ]
             },
 
             {
                 id: 4,
                 title: "Carnival of Rust",
                 thumbnail: 'thumbnail',
-                releaseDate: 0,
+                releaseDate: 2006,
                 songs: [
-                    "Carnival of Rust",
+                        {songTitle: "Fire", rating: 3},
+                        {songTitle: "Sorry Go 'Round", rating: 2},
+                        {songTitle: "Carnival of Rust", rating: 5},
+                        {songTitle: "Locking Up the Sun", rating: 5},
+                        {songTitle: "Gravity", rating: 3},
+                        {songTitle: "King of Fools", rating: 5},
+                        {songTitle: "Roses", rating: 4},
+                        {songTitle: "Desire", rating: 2},
+                        {songTitle: "All the Way / 4U", rating: 5},
+                        {songTitle: "Delicious", rating: 2},
+                        {songTitle: "Maybe Tomorrow is a Better Day", rating: 5},
+                        {songTitle: "Dawn", rating: 4}
                 ]
-            }
+            },
+            {
+                id: 5,
+                title: "Signs of Life",
+                thumbnail: 'thumbnail',
+                releaseDate: 2005,
+                songs:
+                    [
+                        {songTitle: "Lift", rating: 3},
+                        {songTitle: "Overboard", rating: 3},
+                        {songTitle: "Late Goodbye", rating: 3},
+                        {songTitle: "Don't Mess With Me", rating: 2},
+                        {songTitle: "3 AM", rating: 3},
+                        {songTitle: "Stay", rating: 3},
+                        {songTitle: "Seek You Out", rating: 3},
+                        {songTitle: "Shallow", rating: 5},
+                        {songTitle: "Everything Fades", rating: 3},
+                        {songTitle: "Someone Special", rating: 4},
+                        {songTitle: "Illusion & Dream", rating: 5},
+                        {songTitle: "Sleep", rating: 5}
+                    ],
+                },
+                 {
+                id: 6,
+                title: "Revolution Roulette",
+                thumbnail: 'thumbnail',
+                releaseDate: 2008,
+                songs:
+                    [
+                        {songTitle: "More", rating: 2},
+                        {songTitle: "The Ultimate Fling", rating: 3},
+                        {songTitle: "Revolution Roulette", rating: 3},
+                        {songTitle: "Psychosis", rating: 5},
+                        {songTitle: "Fragile", rating: 5},
+                        {songTitle: "Clevermind", rating: 4},
+                        {songTitle: "Miss Impossible", rating: 2},
+                        {songTitle: "Diamonds for Tears", rating: 2},
+                        {songTitle: "Passion Colors Everything", rating: 3},
+                        {songTitle: "Save Me", rating: 3},
+                        {songTitle: "Where do We Draw the Line", rating: 5},
+                     ],
+                },
+                {
+                id: 7,
+                title: "Temple of Thought",
+                thumbnail: 'thumbnail',
+                releaseDate: 2012,
+                songs:
+                    [
+                        {songTitle: "Running Out of Time", rating: 3},
+                        {songTitle: "Temple of Thought", rating: 3},
+                        {songTitle: "Cradled in Love", rating: 5},
+                        {songTitle: "Kamikaze Love", rating: 5},
+                        {songTitle: "The Lie Eternal", rating: 4},
+                        {songTitle: "Skin", rating: 5},
+                        {songTitle: "The Distance", rating: 3},
+                        {songTitle: "Show Me This Life", rating: 4},
+                        {songTitle: "Morning Tide", rating: 5},
+                        {songTitle: "The Ballad of Jeremiah Peacekeeper", rating: 3},
+                        {songTitle: "The Happy Song", rating: 4},
+                     ],
+                },
         ],
 
         thumbnail: 'thumbnail',
