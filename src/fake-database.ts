@@ -147,7 +147,7 @@ export const BANDARRAY = [
                 },
         ],
 
-        thumbnail: 'thumbnail',
+        thumbnail: './images/PotF.jpg',
         like: true
     },
 
