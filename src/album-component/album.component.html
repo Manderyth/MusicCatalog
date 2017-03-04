@@ -1,4 +1,7 @@
 
-<div *ngFor="let album of bandArray?.albums" [routerLink]="['/songs', bandArray.id, album.id]">
-    <h2>{{album.title}}</h2>
-</div>
+<table>
+    <tr *ngFor="let album of bandArray?.albums" [routerLink]="['/songs', bandArray.id, album.id]">
+        <td><img class="thumbnail" src="{{ album.thumbnail }}"/></td>
+        <td class ="album">{{album.title}}</td>
+    </tr>
+</table>

@@ -3,7 +3,7 @@
 
 <table>
     <tr *ngFor="let band of bandArray" [routerLink]="['/albums', band.id]">
-        <td class="thumbnail"> {{ band.thumbnail }} </td>
+        <td><img class="thumbnail" src="{{ band.thumbnail }}"/></td>
         <td class="bandName">{{ band.bandName }}</td>
     </tr>
 </table>

@@ -4,11 +4,6 @@
 }
 
 .thumbnail {
-  border: #ff65ed;
-  border: double;
-}
-
-.selected {
-  background-color: gainsboro !important;
-  color: white;
+  max-height: auto;
+  max-width: 150px;
 }

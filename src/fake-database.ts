@@ -8,7 +8,7 @@ export const BANDARRAY = [
             {
                 id: 1,
                 title: "Jealous Gods",
-                thumbnail: 'thumbnail',
+                thumbnail: '../images/Albums/PoetsOfTheFall/JealousGods.jpg',
                 releaseDate: 2014,
                 songs:
                     [
@@ -29,7 +29,7 @@ export const BANDARRAY = [
             {
                 id: 2,
                 title: "Clearview",
-                thumbnail: 'thumbnail',
+                thumbnail: '../images/Albums/PoetsOfTheFall/Clearview.jpg',
                 releaseDate: 2016,
                 songs: [
                         {songTitle: "Drama for Life", rating: 3},
@@ -48,7 +48,7 @@ export const BANDARRAY = [
             {
                 id: 3,
                 title: "Twilight Theatre",
-                thumbnail: 'thumbnail',
+                thumbnail: '../images/Albums/PoetsOfTheFall/TwilightTheater.jpg',
                 releaseDate: 2010,
                 songs: [
                         {songTitle: "Dreaming Wide Awake", rating: 4},
@@ -67,7 +67,7 @@ export const BANDARRAY = [
             {
                 id: 4,
                 title: "Carnival of Rust",
-                thumbnail: 'thumbnail',
+                thumbnail: '../images/Albums/PoetsOfTheFall/CarnivalOfRust.jpeg',
                 releaseDate: 2006,
                 songs: [
                         {songTitle: "Fire", rating: 3},
@@ -87,7 +87,7 @@ export const BANDARRAY = [
             {
                 id: 5,
                 title: "Signs of Life",
-                thumbnail: 'thumbnail',
+                thumbnail: '../images/Albums/PoetsOfTheFall/SignsOfLife.jpg',
                 releaseDate: 2005,
                 songs:
                     [
@@ -108,7 +108,7 @@ export const BANDARRAY = [
                  {
                 id: 6,
                 title: "Revolution Roulette",
-                thumbnail: 'thumbnail',
+                thumbnail: '../images/Albums/PoetsOfTheFall/RevolutionRoulette.jpg',
                 releaseDate: 2008,
                 songs:
                     [
@@ -128,7 +128,7 @@ export const BANDARRAY = [
                 {
                 id: 7,
                 title: "Temple of Thought",
-                thumbnail: 'thumbnail',
+                thumbnail: '../images/Albums/PoetsOfTheFall/TempleOfThought.jpg',
                 releaseDate: 2012,
                 songs:
                     [
@@ -147,7 +147,7 @@ export const BANDARRAY = [
                 },
         ],
 
-        thumbnail: './images/PotF.jpg',
+        thumbnail: '../images/Bands/PotF.jpg',
         like: true
     },
 
@@ -189,7 +189,7 @@ export const BANDARRAY = [
                 ]
             }
         ],
-        thumbnail: 'thumbnail',
+        thumbnail: '../images/Bands/SonataArctica.jpg',
         like: true
     },
 
@@ -227,7 +227,7 @@ export const BANDARRAY = [
                 songs: []
             }
         ],
-        thumbnail: 'thumbnail',
+        thumbnail: '../images/Bands/Nightwish.jpg',
         like: true
     },
 
@@ -265,7 +265,7 @@ export const BANDARRAY = [
                 songs: []
             }
         ],
-        thumbnail: 'thumbnail',
+        thumbnail: '../images/Bands/Kamelot.jpg',
         like: true
     },
 
@@ -294,7 +294,7 @@ export const BANDARRAY = [
                 ]
             }
         ],
-        thumbnail: 'thumbnail',
+        thumbnail: '../images/Bands/Indica.jpg',
         like: true
     },
 
@@ -320,7 +320,7 @@ export const BANDARRAY = [
                 ]
             }
         ],
-        thumbnail: 'thumbnail',
+        thumbnail: '../images/Bands/Krypteria.jpg',
         like: true
     }
 ];
