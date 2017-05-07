@@ -1,0 +1,16 @@
+
+<h1> Band Catalogue</h1>
+
+<table>
+    <tr *ngFor="let band of bandArray" [routerLink]="['/albums', band.id]">
+        <td><img class="thumbnail" src="{{ band.thumbnail }}"/></td>
+        <td class="bandName">{{ band.bandName }}</td>
+    </tr>
+</table>
+
+<select onchange="pageChange = this.options[this.selectedIndex].value;">
+    <option>Sort Options</option>
+    <option value = "Put page address here http://www.apple.com">In Concert</option>
+    <option value = "concertDates">Concert Dates</option>
+    <option value = "venues">Venues</option>
+</select>

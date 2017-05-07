@@ -1,0 +1,9 @@
+.bandName {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.thumbnail {
+  max-height: auto;
+  max-width: 150px;
+}

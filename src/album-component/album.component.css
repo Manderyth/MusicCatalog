@@ -1,0 +1,24 @@
+.album {
+  font-size: 25px;
+  font-weight: bold;
+  z-index: 999;
+  position: relative;
+  top: 0px;
+}
+
+.thumbnail {
+  max-height: auto;
+  max-width: 150px;
+  z-index: 999;
+  position: relative;
+  top: 0px;
+}
+
+body {
+  background-image: url('../images/Bands/PotF.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: 2;
+  position: relative;
+}
