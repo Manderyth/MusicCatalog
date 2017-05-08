@@ -82,7 +82,7 @@ export const BANDARRAY = [
                         {songTitle: "Delicious", rating: 2, inConcert: false},
                         {songTitle: "Maybe Tomorrow is a Better Day", rating: 5, inConcert: false},
                         {songTitle: "Dawn", rating: 4, inConcert: false}
-                ]
+                        ]
             },
             {
                 id: 5,
@@ -148,7 +148,8 @@ export const BANDARRAY = [
         ],
 
         thumbnail: '../images/Bands/PotF.jpg',
-        concert: true
+        concert: true,
+        like: true
     },
 
     {
@@ -190,7 +191,8 @@ export const BANDARRAY = [
             }
         ],
         thumbnail: '../images/Bands/SonataArctica.jpg',
-        concert: true
+        concert: true,
+        like: true
     },
 
     {
@@ -228,7 +230,8 @@ export const BANDARRAY = [
             }
         ],
         thumbnail: '../images/Bands/Nightwish.jpg',
-        concert: true
+        concert: true,
+        like: true
     },
 
     {
@@ -266,7 +269,8 @@ export const BANDARRAY = [
             }
         ],
         thumbnail: '../images/Bands/Kamelot.jpg',
-        concert: true
+        concert: true,
+        like: true
     },
 
     {
@@ -295,7 +299,8 @@ export const BANDARRAY = [
             }
         ],
         thumbnail: '../images/Bands/Indica.jpg',
-        concert: false
+        concert: false,
+        like: true
     },
 
     {
@@ -321,6 +326,7 @@ export const BANDARRAY = [
             }
         ],
         thumbnail: '../images/Bands/Krypteria.jpg',
-        concert: false
+        concert: false,
+        like: true
     }
 ];

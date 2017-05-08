@@ -5,5 +5,5 @@ export interface BandArray {
     bandName: string;
     albums: AlbumArray[];
     thumbnail: string;
-    concert: boolean;
+    like: boolean;
 }
