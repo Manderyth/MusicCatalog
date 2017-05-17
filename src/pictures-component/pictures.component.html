@@ -1,0 +1,20 @@
+<p>
+  pictures works!
+</p>
+
+<h1> Costumes</h1>
+
+<table>
+    <tr *ngFor="let costume of picturesArray" [routerLink]="['/pictures']">
+        <td><img class="thumbnail" src="{{ costume.thumbnail }}"/></td>
+    </tr>
+</table>
+
+
+<h1> Photoshop</h1>
+
+<table>
+    <tr *ngFor="let create of picturesArray" [routerLink]="['/pictures']">
+        <td><img class="thumbnail" src="{{ create.thumbnail }}"/></td>
+    </tr>
+</table>

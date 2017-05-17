@@ -9,6 +9,9 @@ import { BandComponent } from '../band-component/band.component';
 import { MusicService } from "./music-service.service";
 import { AlbumComponent } from '../album-component/album.component';
 import { SongsComponent } from '../songs-component/songs.component';
+import { SortComponent } from '../sort-component/sort.component';
+import { PicturesComponent } from '../pictures-component/pictures.component';
+import { PictureService } from "./picture-service.service";
 
 
 @NgModule({
@@ -17,7 +20,9 @@ import { SongsComponent } from '../songs-component/songs.component';
         AppComponent,
         BandComponent,
         AlbumComponent,
-        SongsComponent
+        SongsComponent,
+        SortComponent,
+        PicturesComponent
     ],
 
     // components
@@ -29,7 +34,7 @@ import { SongsComponent } from '../songs-component/songs.component';
     ],
 
     //s services
-    providers: [MusicService],
+    providers: [MusicService, PictureService],
 
     bootstrap: [AppComponent]
 })

@@ -159,34 +159,82 @@ export const BANDARRAY = [
             {
                 id: 1,
                 title: "Silence",
-                thumbnail: 'thumbnail',
-                releaseDate: 0,
-                songs: []
+                thumbnail: '../images/Albums/SonataArctica/Silence.jpg',
+                releaseDate: 2001,
+                songs: [
+                    {songTitle: "...Of Silence"},
+                    {songTitle: "Weballergy"},
+                    {songTitle: "False News Travels Fast"},
+                    {songTitle: "The End of This Chapter"},
+                    {songTitle: "Black Sheep"},
+                    {songTitle: "Land of the Free"},
+                    {songTitle: "Last Drop Falls"},
+                    {songTitle: "San Sebastian"},
+                    {songTitle: " Sing in Silence"},
+                    {songTitle: "Revontulet"},
+                    {songTitle: "Tallulah"},
+                    {songTitle: "Wolf & Raven"},
+                    {songTitle: "The Power of One"}
+                ]
             },
 
             {
                 id: 2,
                 title: "Days of Grays",
-                thumbnail: 'thumbnail',
-                releaseDate: 0,
+                thumbnail: '../images/Albums/SonataArctica/DaysOfGrays.jpg',
+                releaseDate: 2009,
                 songs: [
-                    "Juliet",
-                    "Days of Grays",
-                    "DeathAura",
-                    "Flag in the Ground",
-                    "Zeroes"
+                    {songTitle: "Everything Fades to Gray"},
+                    {songTitle: "Deathaura"},
+                    {songTitle: "The Last Amazing Grays"},
+                    {songTitle: "Flag in the Ground"},
+                    {songTitle: "Breathing"},
+                    {songTitle: "Zeroes"},
+                    {songTitle: "The Dead Skin"},
+                    {songTitle: "Juliet"},
+                    {songTitle: "No Dream Can Heal a Broken Heart"},
+                    {songTitle: "As if the World Wasn't Ending"},
+                    {songTitle: "The Truth is Out There"},
+                    {songTitle: "Everything Fades to Gray"}
                 ]
             },
 
             {
                 id: 3,
                 title: "The Ninth Hour",
-                thumbnail: 'thumbnail',
+                thumbnail: '../images/Albums/SonataArctica/TheNinthHour.jpg',
                 releaseDate: 2016,
                 songs: [
-                    "White Pearl, Black Ocean Pt 2",
-                    "Life",
-                    "Among the Shooting Stars"
+                    {songTitle: "Closer to an Animal"},
+                    {songTitle: "Life"},
+                    {songTitle: "Fairytale"},
+                    {songTitle: "We Are What We Are"},
+                    {songTitle: "Till Death's Done Us Apart"},
+                    {songTitle: "Among the Shooting Stars"},
+                    {songTitle: "Rise a Night"},
+                    {songTitle: "Fly, Navigate, Communicate"},
+                    {songTitle: "Candle Lawns"},
+                    {songTitle: "White Pearl, Black Oceans Pt II By the Grace of the Sea"},
+                    {songTitle: "On the Faultline (Closure to an Animal)"}
+                ]
+            },
+                     {
+                id: 4,
+                title: "Winterheart's Guild",
+                thumbnail: '../images/Albums/SonataArctica/WinterheartsGuild.jpg',
+                releaseDate: 2006,
+                songs: [
+                    {songTitle: "Abandoned Pleased Brainwashed Exploited"},
+                    {songTitle: "Gravenimage"},
+                    {songTitle: "Cage"},
+                    {songTitle: "Silver Tongue"},
+                    {songTitle: "Misery"},
+                    {songTitle: "Victoria's Secret"},
+                    {songTitle: "Champagne Bath"},
+                    {songTitle: "Broken"},
+                    {songTitle: "Ruins of My Life"},
+                    {songTitle: "Draw Me"},
+                    {songTitle: "Fade to Black"}
                 ]
             }
         ],
