@@ -147,7 +147,7 @@ export const BANDARRAY = [
                 },
         ],
 
-        thumbnail: '../images/Bands/PotF.jpg',
+        thumbnail: '/images/Bands/PotF.jpg',
         concert: true,
         like: true
     },

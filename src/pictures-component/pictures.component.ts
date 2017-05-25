@@ -4,18 +4,19 @@ import { PicturesArray } from '../domain/pictures';
 import { PictureService } from "../app/picture-service.service";
 
 @Component({
-  selector: 'app-pictures',
+  selector: 'picture-component',
   templateUrl: './pictures.component.html',
   styleUrls: ['./pictures.component.css']
 })
+
 export class PicturesComponent implements OnInit {
-    pictureArray: PictureArray;
+    picturesArray: PicturesArray;
 
   constructor(private pictureService:PictureService, private router: Router) { }
 
   getPictures() {
-    this.pictureService.getPictures().then(picturesArray => this.picturesArray - picturesArray)
-  }
+    this.pictureService.getPictures().then(pictureArray => this.picturesArray = pictureArray)
+   }
 
   ngOnInit() {
     this.getPictures();
